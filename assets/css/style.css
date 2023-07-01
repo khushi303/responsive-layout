@@ -280,6 +280,10 @@ img {
     padding-bottom: 137px;
 }
 
+.ml-30 {
+    margin-left: 30px;
+}
+
 .font-per {
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
@@ -588,6 +592,7 @@ button {
         pointer-events: none;
         background-color: #1E71FF;
         transition: all.3s linear;
+        gap: 35px;
     }
 
     label[for="menu_box"]>span {
@@ -597,10 +602,15 @@ button {
         background-color: #FFFFFF;
     }
 
-    input[type="checkbox"]:checked~ul.small_screen {
+    input[type="checkbox"]:checked~div.small_screen {
         opacity: 1;
         pointer-events: all;
         left: 0%;
+    }
+
+    input[type="checkbox"]:checked~div ul {
+        display: flex;
+        flex-direction: column;
     }
 
     label[for="menu_box"]>span {
@@ -614,5 +624,14 @@ button {
 
     .z-index {
         z-index: 1;
+    }
+
+    .ml-md-0 {
+        margin-left: 0;
+    }
+
+    .pos-md-fix {
+        position: fixed;
+        right: 20px;
     }
 }
