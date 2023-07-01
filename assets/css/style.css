@@ -497,6 +497,11 @@ button {
     padding-left: 0;
 }
 
+.pos-relative {
+    position: relative;
+    left: -4px;
+}
+
 @media (min-width:576px) {
     .col-sm-6 {
         width: 50%;
