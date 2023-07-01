@@ -340,10 +340,6 @@ button {
     cursor: pointer;
 }
 
-.mt-60 {
-    margin-top: 60px;
-}
-
 .mr-30 {
     margin-right: 30px;
 }
@@ -499,7 +495,11 @@ button {
 
 .pos-relative {
     position: relative;
-    left: -4px;
+    right: -4px;
+}
+
+.wh-sp-nw {
+    white-space: nowrap;
 }
 
 @media (min-width:576px) {
@@ -638,5 +638,6 @@ button {
     .pos-md-fix {
         position: fixed;
         right: 20px;
+
     }
 }
