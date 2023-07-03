@@ -498,6 +498,13 @@ button {
     right: -4px;
 }
 
+.px-nav {
+    padding-top: 14px;
+    padding-bottom: 140px;
+}
+
+
+
 .wh-sp-nw {
     white-space: nowrap;
 }
@@ -635,9 +642,18 @@ button {
         margin-left: 0;
     }
 
-    .pos-md-fix {
+    .pos-md-sticky {
+        position: sticky;
+        top: 0;
+    }
+
+    /* .pos-md-fixed {
         position: fixed;
         right: 20px;
+    } */
 
+    .px-md-12 {
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
 }
