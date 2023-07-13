@@ -503,8 +503,6 @@ button {
     padding-bottom: 140px;
 }
 
-
-
 .wh-sp-nw {
     white-space: nowrap;
 }
@@ -646,6 +644,14 @@ button {
         position: sticky;
         top: 0;
     }
+
+    .pos-md-fixed {
+        position: fixed;
+        left: 0;
+        right: 0;
+    }
+
+
 
     /* .pos-md-fixed {
         position: fixed;
